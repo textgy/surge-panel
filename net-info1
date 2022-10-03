@@ -1,0 +1,7 @@
+#!name=Panels
+#!desc=信息面板
+[Panel]
+#网络详情
+NET_info = script-name=NET_info,update-interval=1
+[Script]
+NET_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/textgy/surge-panel/main/net-info,argument=icon=externaldrive.connected.to.line.below&color=#9a7ff7&group=Master
